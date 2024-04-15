@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Sans-Serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+form{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius:8px;
+    background-color: #fff;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+    color: #333;
+}
+label {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin:10px ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+textarea {
+    resize: vertical;
+}
+input[type="submit"]{
+    background-color:#1D32D3;
+    color:white ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: calc(100% - 10px);
+}
+
+select{
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin:10px ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    textarea,
+    input[type="file"] {
+        width: 100%;
+    }
+}
